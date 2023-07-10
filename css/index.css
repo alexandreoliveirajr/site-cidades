@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+* {
+    margin: 0%;
+    font-family: 'PT Serif';
+}
+
+header {
+    background-image: linear-gradient(to right,#000814, #001D3D);
+    padding: 2%;
+}
+
+#titulo-site a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Menu */
+
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #001D3D;
+  }
+  
+  .item-menu {
+    float: left;
+  }
+  
+  .item-menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .item-menu a:hover:not(.active) {
+    background-color: #027c50;
+  }
+  
+  .active {
+    background-color: #05c780;
+  }
+
+
+ main {
+    padding: 2%;
+ }
+
+ .titulo-pag, #slogan-pag {
+    text-align: center;
+ }
+
+ .img-index {
+    float: left;
+ }
+
+ .img-index img{
+    margin: 25px;
+    height: 325px;
+ }
+
+ footer {
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    padding: 5px;
+    background-color: #00050c;
+    color: #fff;
+    width: 100%;
+ }

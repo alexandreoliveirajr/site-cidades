@@ -1,0 +1,14 @@
+.curiosidade {
+    background-color: #05e492;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #001D3D;
+    float: left;
+    width: 30%;
+    height: 210px;
+}
+
+.curiosidade p {
+    font-size: 2em;
+    text-align: justify;
+}

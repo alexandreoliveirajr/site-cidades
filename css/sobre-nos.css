@@ -1,0 +1,17 @@
+#informacoes-criador {
+    margin: 5px;
+    list-style-type: square;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+.item-lista-infocriador a {
+    text-decoration: none;
+    color: black;
+}
+
+.item-lista-infocriador a:hover {
+    color: #027c50;
+}
